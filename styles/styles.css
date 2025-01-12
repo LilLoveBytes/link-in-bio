@@ -1,0 +1,78 @@
+html {
+  min-height: 100%;
+}
+
+header {
+margin: auto;
+max-width: 640px;
+}
+
+body {
+  padding: 40px 0;
+  background: linear-gradient(180deg, #003f5b, #005460, #006a63, #008157, #3f9500, #919800, #c89c00, #ff9913); /* made at https://learnui.design/tools/gradient-generator.html */
+  min-height: 100%;
+  color: whitesmoke;
+  font-family: "Lato"; 
+
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+
+.link {
+  background-color: rgba(100, 163, 163, 0.65);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  box-shadow: 10px 6px 23px 3px rgba(6,60,102,0.57);
+}
+
+.img-avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 128px;
+}
+
+.thumbnail {
+  width: 28px;
+  height: 28px;
+  border-radius: 48px;
+  object-fit: cover;
+
+}
+
+.img-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-row {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+
+.socials-row {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  
+}
+
+.container {
+  max-width: 640px;
+  margin: auto; 
+}
+
+.link-text {
+  text-align: center; 
+  flex-grow: 1; 
+}

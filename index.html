@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html> 
   <head>
-  <title> Link in Bio </title>
-  <link href="" rel="stylesheet" />
+    <title> Link in Bio </title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
   </head>
 
   <body>
-    <header></header>
-    <main>
+    <header>
       <h2> Link in Bio </h2>
+    </header>
+
+    <main>
+      <div class="container"> <!--parent-->
+
+        <div class="img-row"> <!--child-->
+          <img class="img-avatar" src="images/photo.jpeg" alt="my headshot" />
+        </div>
+
+        <div class="name-row"> <!--child-->
+           <h2> L. Pollard </h2>
+        </div>
+
+        <div class="socials-row"> <!--child-->
+          <a class="link-text" href="https://github.com/LilLoveBytes/" target="_blank">
+              <i class="fa-brands fa-github"></i></a>
+
+          <a class="link-text" href="https://www.linkedin.com/in/latashapollard/" target="_blank"> 
+              <i class="fa-brands fa-linkedin-in"></i></a>
+        </div> <!--closes socials row-->
+
+        <div class="links-row"> <!--child-->
+          <div class="link"> <!--grandchild-->
+            <img class="thumbnail" src="images/notebook.jpeg" alt="an open notebook on a desk"/>
+            <a class="link-text" href=https://www.youtube.com/watch?v=buW9OMD2QeQ" target="_blank">
+               A video i like on CS note taking
+            </a>
+          </div>
+        </div>
+
+      </div> <!--closes container-->
     </main>
+
     <footer></footer>
   </body>
 </html>
